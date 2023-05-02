@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Project: My Own Blog</title>
+    <style>
+      body {
+        background-color: #99cccc;
+      }
+      h1 {
+        font-family: sans-serif, serif;
+        font-size: 3em;
+        font-weight: bolder;
+        color: pink;
+        text-shadow: 4px 4px 3px #77f;
+      }
+      h2, h3, h4, h5 {
+        font-family: sans-serif, serif;
+        font-size: 2.2em;
+        font-weight: lighter;
+        text-shadow: 4px 4px 4px #77f;
+        color: #a050a0;
+      }
+      h6 {
+        font-size: 0.8em;
+        font-weight: bolder;
+      }
+      .lincs {
+        font-family: sans-serif, serif;
+        font-size: 1.05em;
+        color: #5050a0;
+        text-decoration: underline;
+        font-weight: bolder;
+        text-shadow: 4px 4px 4px #77f;
+      }
+      .lincs div {
+        cursor: pointer;
+      }
+      .GFG {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Louise Yuki's Blog</h1>
+    <h3>My cats!</h3>
+    <ol class="lincs">
+      <li><div id="rayLink">Rayla</div></li>
+      <li><div id="lunaLink">Luna</div></li>
+    </ol>
+    <h2>Rayla</h2>
+    <h6>Posted on 05/2023</h6>
+    <p>Rayla is a very unique cat. She has so much personality that calling her "it" just sounds wrong! She is very docile and loves being petted on her chin. But you must be careful while petting her, she has a "petmeter" and won't be happy if you pet her for too long!</p>
+    <h2>Luna</h2>
+    <h6>Posted on 05/2023</h6>
+    <p>Luna is a sleepy cat. She likes to take sunbaths in the morning and hides at night to continue sleeping. Luna is very polite and always sits down to wait for her turn to eat. She is so lovely that petting her is very calming. Ah, almost forgot, Luna is Rayla's mother!</p>
+    <script>
+      var rayLink = document.getElementById("rayLink");
+      var lunaLink = document.getElementById("lunaLink");
+      rayLink.addEventListener("click", function() {
+        document.getElementById("rayla").scrollIntoView();
+      });
+      lunaLink.addEventListener("click", function() {
+        document.getElementById("luna").scrollIntoView();
+      });
+    </script>
+  </body>
+</html>

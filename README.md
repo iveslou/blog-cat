@@ -10,6 +10,7 @@
 <div align="center">
   <a href="blog.html" target="_blank">
     <img src="https://img.shields.io/badge/Take_a_look_at_the_page_!-e06ce2?style=for-the-badge" alt="Take a look at the page!">
+    <img src="blogPreview.png" style="max-width: 80%;" />
   </a>
 </div>
   
